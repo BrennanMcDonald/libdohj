@@ -12,9 +12,9 @@
  * limitations under the License.
  */
 
-package com.dogecoin.dogecoinj.protocols.payments;
+package io.garlicoin.garlicoinj.protocols.payments;
 
-import com.dogecoin.dogecoinj.protocols.payments.PaymentProtocol.PkiVerificationData;
+import io.garlicoin.garlicoinj.protocols.payments.PaymentProtocol.PkiVerificationData;
 import org.bitcoinj.core.*;
 import org.bitcoinj.wallet.SendRequest;
 import org.bitcoinj.crypto.TrustStoreLoader;

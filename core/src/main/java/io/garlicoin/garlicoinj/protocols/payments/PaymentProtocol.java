@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.dogecoin.dogecoinj.protocols.payments;
+package io.garlicoin.garlicoinj.protocols.payments;
 
 import com.google.common.base.MoreObjects;
 import com.google.common.collect.ImmutableList;
@@ -47,9 +47,9 @@ import java.util.List;
 public class PaymentProtocol {
 
     // MIME types as defined in DIP71.
-    public static final String MIMETYPE_PAYMENTREQUEST = "application/vnd.doge.payment.request";
-    public static final String MIMETYPE_PAYMENT = "application/vnd.doge.payment.payment";
-    public static final String MIMETYPE_PAYMENTACK = "application/vnd.doge.payment.ack";
+    public static final String MIMETYPE_PAYMENTREQUEST = "application/vnd.grlc.payment.request";
+    public static final String MIMETYPE_PAYMENT = "application/vnd.grlc.payment.payment";
+    public static final String MIMETYPE_PAYMENTACK = "application/vnd.grlc.payment.ack";
 
     /**
      * Create a payment request with one standard pay to address output. You may want to sign the request using
